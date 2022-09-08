@@ -38,12 +38,12 @@ function card(props: cardProps) {
             <p className={styles.name}>{props.title}</p>
             <p className={styles.sc}>Score: {vote}</p>
             <img src="circle.png"/>
-            <button className={styles.close1}> <img src="Vector3.png" alt="my image" onClick={addVote} /></button>
+            <button className={styles.close1}> <img src="Vector3.png" onClick={addVote} /></button>
         </div>
 
         <div className={styles.v2}>
             <img src="circle.png"/>
-            <button className={styles.close2}><img src="Vector4.png" alt="my image" onClick={subVote} /></button>
+            <button className={styles.close2}><img src="Vector4.png" onClick={subVote} /></button>
         </div>
         </>
     )

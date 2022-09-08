@@ -12,16 +12,13 @@ const Landing: NextPage = () => {
   return (
     <>
       <NavBar />
-      <div className = {styles.opacity}>
-        <img src="background.png"/>
-      </div>
+      <img className = {styles.opacity} src="background.png"/>
       <div className = {styles.grand}>
         Grand Cheese Race
       </div>
       <div className= {styles.subtext}>
         It’s the race of the century! All victors return for one final race... who do you think will win?
       </div>
-      
     </>
   );
 };

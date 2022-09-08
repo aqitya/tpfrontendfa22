@@ -23,9 +23,8 @@ const Voting: NextPage = () => {
       {/* {cards[0]} */}
       <Card 
         title = "Speedy Sidrimo"
-        score = {3400}
+        score = {0}
         image = "runner1.jpg"
-
       />
     </div>
 
@@ -34,7 +33,7 @@ const Voting: NextPage = () => {
       {/* {cards[1]} */}
       <Card
         title= "Muscular Macy"
-        score= {1264}
+        score= {0}
         image= "runner4.jpeg"
       />
     </div>
@@ -43,7 +42,7 @@ const Voting: NextPage = () => {
       {/* {cards[2]} */}
       <Card
         title = "Agile Aspen"
-        score = {1222}
+        score = {0}
         image = "runner3.jpeg"
       />
     </div>
@@ -52,7 +51,7 @@ const Voting: NextPage = () => {
       {/* {cards[3]} */}
       <Card
         title="Fast-roller Fardan"
-        score= {1850}
+        score= {0}
         image= "runner2.jpeg"
       />
     </div>
